@@ -14,5 +14,59 @@
     margin-left: 30px;
 }
 .himgContainer>img {
-    width: 50px;
+    position: absolute;
+}
+.himg1 {
+    right: 150px;
+    top: 180px;
+    width: 110px;
+    border-radius: 5px;
+}
+.himg2 {
+    right: 150px;
+    top: 360px;
+    width: 110px;
+    border-radius: 5px;
+}
+.himg3 {
+    right: 280px;
+    top: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+.himg4 {
+    right: 280px;
+    top: 310px;
+    width: 100px;
+    border-radius: 5px;
+}
+.himg5 {
+    right: 500px;
+    top: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+.himg6 {
+    right: 600px;
+    top: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+.himg7 {
+    right: 700px;
+    top: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+.himg8 {
+    right: 800px;
+    top: 120px;
+    width: 100px;
+    border-radius: 5px;
+}
+.himg9 {
+    right: 900px;
+    top: 120px;
+    width: 100px;
+    border-radius: 5px;
 }
