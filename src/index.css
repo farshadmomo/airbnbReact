@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.airnav {
+    display: flex;
+    height: 80px;
+    box-shadow: 0px 0px 0px 3px #dddddd;
+    align-items: center;
+}
+.airnav>img {
+    height: 35px;
+    margin-left: 30px;
+}
+.himgContainer>img {
+    width: 50px;
+}
