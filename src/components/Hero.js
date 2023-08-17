@@ -21,6 +21,7 @@ export default function Hero() {
             <img className='himg7' src={himg7} alt='heroimage7'/>
             <img className='himg8' src={himg8} alt='heroimage8'/>
             <img className='himg9' src={himg9} alt='heroimage9'/>
+            <img className='himg10' src={himg9} alt='heroimage10'/>
         </div>
     )
 }

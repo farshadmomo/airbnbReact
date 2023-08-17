@@ -18,55 +18,65 @@
 }
 .himg1 {
     right: 150px;
-    top: 180px;
-    width: 110px;
+    top: 150px;
+    width: 200px;
     border-radius: 5px;
 }
 .himg2 {
     right: 150px;
-    top: 360px;
-    width: 110px;
+    top: 470px;
+    width: 200px;
     border-radius: 5px;
 }
 .himg3 {
-    right: 280px;
+    right: 400px;
     top: 120px;
-    width: 100px;
+    width: 200px;
     border-radius: 5px;
 }
 .himg4 {
-    right: 280px;
-    top: 310px;
-    width: 100px;
+    right: 480px;
+    top: 420px;
+    width: 200px;
     border-radius: 5px;
+    rotate: 90deg;
 }
 .himg5 {
-    right: 500px;
-    top: 120px;
-    width: 100px;
+    right: 880px;
+    top: 100px;
+    width: 250px;
     border-radius: 5px;
 }
 .himg6 {
-    right: 600px;
-    top: 120px;
-    width: 100px;
+    right: 650px;
+    top: 180px;
+    width: 200px;
     border-radius: 5px;
 }
 .himg7 {
-    right: 700px;
-    top: 120px;
-    width: 100px;
+    right: 1070px;
+    top: 370px;
+    width: 400px;
     border-radius: 5px;
+    rotate: 90deg;
 }
 .himg8 {
-    right: 800px;
-    top: 120px;
-    width: 100px;
+    right: 820px;
+    top: 460px;
+    width: 200px;
     border-radius: 5px;
 }
 .himg9 {
-    right: 900px;
-    top: 120px;
-    width: 100px;
+    right: 880px;
+    top: 310px;
+    width: 200px;
     border-radius: 5px;
+
 }
+.himg10 {
+     right: 1170px;
+     top: 120px;
+     width: 250px;
+     border-radius: 5px;
+
+ }
