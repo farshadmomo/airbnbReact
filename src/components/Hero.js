@@ -22,6 +22,10 @@ export default function Hero() {
             <img className='himg8' src={himg8} alt='heroimage8'/>
             <img className='himg9' src={himg9} alt='heroimage9'/>
             <img className='himg10' src={himg9} alt='heroimage10'/>
+            <div className='herodesc'>
+                <h1>Online Experiences</h1>
+                <p>join unique interactive activities ny one-of-a-kind hosts-all without leaving home</p>
+            </div>
         </div>
     )
 }

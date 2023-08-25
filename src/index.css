@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
 }
 .airnav {
     display: flex;
@@ -80,3 +81,35 @@
      border-radius: 5px;
 
  }
+.herodesc {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top:750px ;
+}
+.herodesc>h1 {
+    font-size: 50px;
+}
+.herodesc>p {
+    font-size: 20px;
+}
+.card {
+    width: 175px;
+    font-size: 12px;
+}
+
+.card--image {
+    width: 100%;
+    border-radius: 9px;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
