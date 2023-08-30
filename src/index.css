@@ -97,6 +97,8 @@
 .card {
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;
+    position: relative;
 }
 
 .card--image {
@@ -112,4 +114,19 @@
 .card--star {
     height: 14px;
 }
-
+.cardContainer {
+    overflow-x:scroll;
+    flex-wrap: nowrap;
+}
+.soldout {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+}
