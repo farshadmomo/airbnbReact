@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css"
 import NavBar from "./components/NavBar";
 import Card from "./components/Card";
+import Hero from "./components/Hero";
 import Data from "./data";
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         return (
             <Card
                 key={item.id}
-                item={item}
+                {...item}
             />
         )
     })
@@ -18,7 +19,7 @@ function App() {
     return (
         <div className='container'>
             <NavBar/>
-            {/*<Hero />*/}
+            <Hero />
             <div className="cardContainer">
                 {cards}
             </div>

@@ -14,71 +14,67 @@
     height: 35px;
     margin-left: 30px;
 }
-.himgContainer>img {
-    position: absolute;
+.imgContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
 }
+.himgContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+/*.himgContainer>img {*/
+/*    position: absolute;*/
+/*}*/
 .himg1 {
-    right: 150px;
-    top: 150px;
-    width: 200px;
     border-radius: 5px;
+    height: 300px;
+    margin-top: 50px;
 }
 .himg2 {
-    right: 150px;
-    top: 470px;
-    width: 200px;
     border-radius: 5px;
+    height: 300px;
 }
 .himg3 {
-    right: 400px;
-    top: 120px;
-    width: 200px;
     border-radius: 5px;
+    height: 350px;
+    margin-top: 200px;
 }
 .himg4 {
-    right: 480px;
-    top: 420px;
-    width: 200px;
     border-radius: 5px;
     rotate: 90deg;
+    width: 117vh;
+    margin-top: -350px;
+    margin-bottom: -300px;
 }
 .himg5 {
-    right: 880px;
-    top: 100px;
-    width: 250px;
     border-radius: 5px;
+    height: 250px;
+    margin-top: 250px;
 }
 .himg6 {
-    right: 650px;
-    top: 180px;
-    width: 200px;
     border-radius: 5px;
+    height: 200px;
 }
 .himg7 {
-    right: 1070px;
-    top: 370px;
-    width: 400px;
     border-radius: 5px;
     rotate: 90deg;
+    height: 200px;
 }
 .himg8 {
-    right: 820px;
-    top: 460px;
-    width: 200px;
     border-radius: 5px;
+    height: 200px;
 }
 .himg9 {
-    right: 880px;
-    top: 310px;
-    width: 200px;
     border-radius: 5px;
+    height: 200px;
 
 }
 .himg10 {
-     right: 1170px;
-     top: 120px;
-     width: 250px;
      border-radius: 5px;
+     height: 250px;
 
  }
 .herodesc {
@@ -86,7 +82,6 @@
     flex-direction: column;
     align-items: flex-start;
     margin-left: 100px;
-    margin-top:750px ;
 }
 .herodesc>h1 {
     font-size: 50px;

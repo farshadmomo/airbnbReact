@@ -12,16 +12,20 @@ import himg9 from '../content/wong-zihoo-DBtgQI-9XdM-unsplash.jpg'
 export default function Hero() {
     return (
         <div className='himgContainer'>
-            <img className='himg1' src={himg1} alt='heroimage1'/>
-            <img className='himg2' src={himg2} alt='heroimage2'/>
-            <img className='himg3' src={himg3} alt='heroimage3'/>
-            <img className='himg4' src={himg4} alt='heroimage4'/>
-            <img className='himg5' src={himg5} alt='heroimage5'/>
-            <img className='himg6' src={himg6} alt='heroimage6'/>
-            <img className='himg7' src={himg7} alt='heroimage7'/>
-            <img className='himg8' src={himg8} alt='heroimage8'/>
-            <img className='himg9' src={himg9} alt='heroimage9'/>
-            <img className='himg10' src={himg9} alt='heroimage10'/>
+            <div className='imgContainer'>
+                {/*<img className='himg1' src={himg1} alt='heroimage1'/>*/}
+                {/*<img className='himg2' src={himg2} alt='heroimage2'/>*/}
+                {/*<img className='himg3' src={himg3} alt='heroimage3'/>*/}
+                <img className='himg4' src={himg4} alt='heroimage4'/>
+                {/*<img className='himg5' src={himg5} alt='heroimage5'/>*/}
+            </div>
+            {/*<div className='imgContainer'>*/}
+            {/*    <img className='himg6' src={himg6} alt='heroimage6'/>*/}
+            {/*    <img className='himg7' src={himg7} alt='heroimage7'/>*/}
+            {/*    <img className='himg8' src={himg8} alt='heroimage8'/>*/}
+            {/*    <img className='himg9' src={himg9} alt='heroimage9'/>*/}
+            {/*    <img className='himg10' src={himg9} alt='heroimage10'/>*/}
+            {/*</div>*/}
             <div className='herodesc'>
                 <h1>Online Experiences</h1>
                 <p>join unique interactive activities ny one-of-a-kind hosts-all without leaving home</p>
